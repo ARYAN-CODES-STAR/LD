@@ -7,7 +7,8 @@ const Cards = () => {
 
     <>
       {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 align-center lg:w-4/5 relative gap-3"> */}
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-black hover:border-green-600">
+        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-black hover:border-green-600"
+        data-aos="fade-up">
           <div className="m-2">
             <img
               className="rounded-t-lg"
@@ -24,7 +25,7 @@ const Cards = () => {
             </a>
             <a href="#">
               <h5 className="mb-2 tracking-tight text-gray-800">
-                Noteworthy technology acquisitions 2021
+                This is a sample text!!
               </h5>
             </a>
             {/* <p className="mb-3 font-normal text-gray-700">

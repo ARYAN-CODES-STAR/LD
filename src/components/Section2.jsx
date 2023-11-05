@@ -5,7 +5,7 @@ import Cards from "./Cards";
 const Section2 = () => {
   return (
     <div className="relative flex justify-center  gap-4 border rounded md:mx-24 text-black p-4">
-      <div className="sticky lg:w-1/5">
+      <div className="sticky lg:w-1/5 rounded-lg">
         <Info />
       </div>
       <div className="w-4/5">
