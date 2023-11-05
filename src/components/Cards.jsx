@@ -7,7 +7,7 @@ const Cards = () => {
 
     <>
       {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 align-center lg:w-4/5 relative gap-3"> */}
-        <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow text-black hover:border-green-600"
+        <div className=" hover:scale-[1.06] transition-transform duration-2s max-w-sm bg-white border border-gray-200 rounded-lg shadow text-black hover:border-green-600"
         data-aos="fade-up">
           <div className="m-2">
             <img
