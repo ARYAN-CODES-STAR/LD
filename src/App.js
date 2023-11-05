@@ -2,13 +2,14 @@
 // import './App.css';
 import Cards from "./components/Cards";
 import Header from "./components/Header";
-
+import Info from "./components/Info";
+import Section2 from "./components/Section2";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-gray-100">
       <Header />
-      <Cards />
+      <Section2 />
     </div>
   );
 }

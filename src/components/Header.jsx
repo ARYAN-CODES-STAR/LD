@@ -31,52 +31,62 @@ import React from "react";
 import img from "../assets/reading_articles2 (1).svg";
 
 const Header = () => {
-
   return (
     <>
-    <div className="flex items-center justify-between p-4 border rounded bg-teal-100 px-8 mx-4 my-8 md:mx-24">
-      <div className="flex-1 pr-4 md:mt-0">
-        <h1 className="text-7xl font-bold py-4 ">Stay curious.</h1>
-        <p className="text-gray-500 text-lg mt-4">
-          Discover stories, thinking, and expertise <pre></pre> from writers on
-          any topic.
-        </p>
-        <div className="mt-4">
-          {/* <button className="bg-white-500 text-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
+      <div className="flex items-center justify-between p-4 border rounded bg-teal-100 px-8 mx-4 my-8 md:mx-24">
+        <div className="flex-1 pr-4 md:mt-0">
+          <h1 className="text-7xl font-bold py-4 ">Stay curious.</h1>
+          <p className="text-gray-500 text-lg mt-4">
+            Discover stories, thinking, and expertise <pre></pre> from writers
+            on any topic.
+          </p>
+          <div className="mt-4">
+            {/* <button className="bg-white-500 text-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
             Study Documents
           </button> */}
-          <button
-                href="#"
-                className="transition ease-in-out delay-150 rounded-3xl bg-white px-3.5 py-1.5 text-lg font-semibold leading-7 text-black shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
-              >
-                Study Documents
-              </button>
-              <button
-                href="#"
-                className="transition ease-in-out delay-150 rounded-3xl bg-black px-3.5 py-1.5 text-lg font-semibold leading-7 text-white shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
-              >
-                Explore Articles
-              </button>
-              <button
-                href="#"
-                className="transition ease-in-out delay-150 rounded-3xl bg-white px-3.5 py-1.5 text-lg font-semibold leading-7 text-black shadow-sm hover:bg-yellow-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
-              >
-                 <span className="underline">A</span> Write
-              </button>
-          {/* <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2">
+            {/* <button
+              href="#"
+              className="hidden md:flex transition ease-in-out delay-150 rounded-3xl bg-white px-3.5 py-1.5 text-lg font-semibold leading-7 text-black shadow-sm hover:bg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
+            >
+              Study Documents
+            </button> */}
+            <button
+              href="#"
+              className="transition ease-in-out delay-150 rounded-3xl bg-white px-3.5 py-1.5 text-lg font-semibold leading-7 text-black shadow-sm hover:bg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
+            >
+              Study Documents
+            </button>
+            <button
+              href="#"
+              className="transition ease-in-out delay-150 rounded-3xl bg-black px-3.5 py-1.5 text-lg font-semibold leading-7 text-white shadow-sm hover: focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
+            >
+              Explore Articles
+            </button>
+            <button
+              href="#"
+              className="transition ease-in-out delay-150 rounded-3xl bg-white px-3.5 py-1.5 text-lg font-semibold leading-7 text-black shadow-sm hover:bg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400 hover:scale-110 duration-300 mr-2 mt-4"
+            >
+              <span className="underline">A</span> Write
+            </button>
+            
+            {/* <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mr-2">
             Button 2
           </button> */}
-          {/* <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+            {/* <button className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
             Button 3
           </button> */}
+          </div>
+        </div>
+
+        <div className="w-1/4">
+          <img
+            src={img}
+            width={20}
+            alt="Your Image"
+            className="w-full h-auto"
+          />
         </div>
       </div>
-
-      <div className="w-1/4">
-        <img src={img} width={20} alt="Your Image" className="w-full h-auto" />
-      </div>
-    </div>
-          
     </>
   );
 };
