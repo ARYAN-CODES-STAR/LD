@@ -29,17 +29,23 @@
 
 import React from "react";
 import img from "../assets/reading_articles2 (1).svg";
+import "./Header.css"
 
 const Header = () => {
   return (
     <>
-      <div className="flex items-center justify-between p-4 border rounded bg-teal-100 px-8 mx-4 my-8 md:mx-24">
+      <div className="flex items-center justify-between p-4 border rounded bg-yellow-300 px-8 mx-4 my-8 md:mx-24">
+      {/* bg-teal-100 */}
         <div className="flex-1 pr-4 md:mt-0">
-          <h1 className="text-7xl font-bold py-4 ">Stay curious.</h1>
-          <p className="text-gray-500 text-lg mt-4">
+          <h1 className="text-7xl font-bold py-4 mt:8 hover:underline hover:decoration-teal-400 cursor-grabbing ">Stay curious.</h1>
+          {/* <p className="text-gray-500 text-lg mt-4">
             Discover stories, thinking, and expertise <pre></pre> from writers
             on any topic.
-          </p>
+          </p> */}
+
+          <p class="text-gray-500 text-lg mt-4 typewriter max-w-custom">
+    Discover <span className="text-green-500">stories</span>, <span className="text-green-500">thinking</span>, and <span className="text-green-500">expertise</span> <pre></pre> from <span className="text-red-600">writers</span> on any topic.
+  </p>
           <div className="mt-4">
             {/* <button className="bg-white-500 text-black hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
             Study Documents

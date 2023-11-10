@@ -7,25 +7,25 @@ function Info() {
      <div className='font-semibold text-3xl'>Discover more of what matters to you.</div>
       
       <div className="grid grid-cols-3 gap-2">
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
-        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center">
+        <div className="bg-gray-200 px-8 rounded-full flex justify-center items-center hover:bg-yellow-500 hover:scale-[1.06] shadow-lg">
           abcd
         </div>
       </div>
