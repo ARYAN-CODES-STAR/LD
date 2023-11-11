@@ -9,7 +9,7 @@ const Section2 = () => {
         <Info />
       </div>
       <div className="w-4/5">
-      <div className="font-medium mb-2">
+      <div className="font-medium mb-2 hover: text-4xl hover:animate-pulse">
         Read your fav articles
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
